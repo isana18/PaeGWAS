@@ -122,7 +122,7 @@ result = testAssociation(data_x,virulence,indexes_all)
 rownames(result) = rownames(data_x)
 write.csv(result,"StatisticalTests_pvals.csv")
 
-p_vals = performPermutationTest(data_x,virulence,indexes_all,result, 10)
+p_vals = performPermutationTest(data_x,virulence,indexes_all,result, 10000)
 results_withPermTest = cbind(result,p_vals)	
-write.csv(results_withPermTest,"StatTest_withPerm_byGene_10.csv")
+write.csv(results_withPermTest,"StatTest_withPerm_byGene_10000.csv")
 	
