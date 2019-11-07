@@ -1,5 +1,5 @@
 # PaeGWAS
-Source code for publication "The Pseudomonas aeruginosa accessory genome elements influence virulence towards Caenorhabditis elegans"
+Source code for publication "The Pseudomonas aeruginosa accessory genome elements influence virulence towards Caenorhabditis elegans" by Alejandro Vasquez-Rifo; Isana Veksler-Lublinsky; Zhenyu Cheng; Frederick M. Ausubel; Victor Ambros
 
 
 The code provides a statistical test for association of genetic elements with virulence.
